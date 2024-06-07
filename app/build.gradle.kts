@@ -1,17 +1,17 @@
 plugins {
-    //alias(libs.plugins.joorab.android.application)
-    //alias(libs.plugins.joorab.android.application.compose)
-    //alias(libs.plugins.joorab.android.application.flavors)
-    //alias(libs.plugins.joorab.android.application.jacoco)
-    //alias(libs.plugins.joorab.android.hilt)
-    //alias(libs.plugins.joorab.android.application.firebase)
+    alias(libs.plugins.joorab.android.application)
+    alias(libs.plugins.joorab.android.application.compose)
+    alias(libs.plugins.joorab.android.application.flavors)
+    alias(libs.plugins.joorab.android.application.jacoco)
+    alias(libs.plugins.joorab.android.hilt)
+    alias(libs.plugins.joorab.android.application.firebase)
 
     //id("com.google.android.gms.oss-licenses-plugin")
     //alias(libs.plugins.baselineprofile)
     //alias(libs.plugins.roborazzi)
 
-    alias(libs.plugins.android.application)
-    alias(libs.plugins.ksp)
+    //alias(libs.plugins.android.application)
+    //alias(libs.plugins.ksp)
 }
 
 android {
